@@ -1,6 +1,12 @@
+<script setup lang="ts">
+useHead({
+  title: 'Vue3 Canvas Plays',
+})
+</script>
+
 <template>
-  <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
+  <main font-sans p="y-10" text="center gray-700 dark:gray-200">
     <RouterView />
-    <TheFooter />
+    <Footer />
   </main>
 </template>
